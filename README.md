@@ -147,8 +147,9 @@ spring:
                 username: root
                 password: root
 ```
-####ps:要先到入sql文件，blockchain-trace-basic-data/sql
-####ps:ruoyi默认会占用8080端口，上面node服务也占用了8080端口，可以在application.yml文件中修改端口
+#### ps:要先到入sql文件，blockchain-trace-basic-data/sql
+#### ps:ruoyi默认会占用8080端口，上面node服务也占用了8080端口，可以在application.yml文件中修改端口
+
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/27681113/188606677-89e2ea84-5e90-45db-a641-0a429e131871.png">
 
 
@@ -162,7 +163,8 @@ main.js，修改为区块链网络所在服务器地址
 ```yaml
 Vue.prototype.$httpUrl = "http://localhost:8080/route";
 ```
-####ps:上方为区块链网络地址，如果修改了若依后端的监听端口，还需要修改vue.config.js文件中[process.env.VUE_APP_BASE_API]的端口
+#### ps:上方为区块链网络地址，如果修改了若依后端的监听端口，还需要修改vue.config.js文件中[process.env.VUE_APP_BASE_API]的端口
+
 ![Uploading image.png…]()
 
 ### 3.启动项目
