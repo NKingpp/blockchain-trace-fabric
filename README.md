@@ -149,7 +149,7 @@ spring:
 ```
 #### ps:要先到入sql文件，blockchain-trace-basic-data/sql
 #### ps:ruoyi默认会占用8080端口，上面node服务也占用了8080端口，可以在application.yml文件中修改端口
-
+#### ps:编译爆数据库的错要先启动数据库，数据库配置要改ruoyi-traces/mybatis-generator.xml文件
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/27681113/188606677-89e2ea84-5e90-45db-a641-0a429e131871.png">
 
 
